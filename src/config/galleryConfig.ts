@@ -19,7 +19,7 @@ export const galleryConfig: GalleryConfig = {
 			description: "第一次和鑫在太原见面",
 			location: "太原",
 			date: "2025-06-20",
-			tags: ["情侣", "相遇"],
+			tags: ["情侣日记", "恋爱"],
 		},
 	],
 
