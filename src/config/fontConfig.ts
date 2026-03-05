@@ -69,15 +69,6 @@ export const fontConfig = {
 			weight: 600,
 			display: "swap" as const,
 		},
-		//华为字体
-		"harmonyos-sans-sc": {
-    id: "harmonyos-sans-sc",
-    name: "HarmonyOS Sans",
-    src: "https://blog.cvpotato.cn/usr/HarmonyOS_Sans_SC.css",
-    family: "HarmonyOS",
-	weight: 600,
-    display: "swap" as const,
-  },
 	},
 	
 
