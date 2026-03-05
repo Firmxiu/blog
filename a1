@@ -1,0 +1,338 @@
+[33mcommit 00ebc8a2ab4b04509da17429703ad6b84d1e21e9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Firmxiu <891099952@qq.com>
+Date:   Thu Mar 5 14:54:29 2026 +0800
+
+    f
+
+[33mcommit c2bb80c43aae9f933d772ffed67ddf2cac4ae6fe[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Tue Mar 3 14:19:34 2026 +0800
+
+    style: 优化bangumi封面标签显示数量
+
+[33mcommit c0b6ed7803c870636898585877368b98fd37e5b5[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Mon Mar 2 17:02:49 2026 +0800
+
+    fix: 修复bangumi会一次性加载全部封面
+
+[33mcommit 489459a05fb61cf3fef0066822e512af8fea36e1[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Mon Mar 2 16:38:20 2026 +0800
+
+    build: 优化构建配置
+
+[33mcommit 7e2c6e603bb15eaa08a9a0486109ca5e4b321f12[m
+Merge: 015d7bfc 26d30804
+Author: 夏叶 <xiaye@msn.com>
+Date:   Mon Mar 2 15:29:14 2026 +0800
+
+    Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+
+[33mcommit 015d7bfc25a002957297977a88c15d8156f9e9fd[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Mon Mar 2 15:29:09 2026 +0800
+
+    feat: 添加语言徽章插件配置开关
+
+[33mcommit 26d308049071f8afddda2595116b20e7f75c0111[m
+Merge: 95de8b49 fa0d67aa
+Author: XiaYe <xiaye@msn.com>
+Date:   Sun Mar 1 21:52:23 2026 +0800
+
+    Merge pull request #239 from jacksen168sub/feat/bangumi-category-sorting
+    
+    feat(config): 添加Bangumi条目类型排序功能
+
+[33mcommit fa0d67aa57043a7a4a185514421d370d64f80a65[m
+Author: jacksen168 <liu163yong163yu@163.com>
+Date:   Sun Mar 1 18:56:35 2026 +0800
+
+    feat(config): 添加Bangumi条目类型排序功能
+    feat(config): Add Bangumi Entry Type Sorting Feature
+    
+    配置与排序功能增强：
+    - 在siteConfig配置中新增categoryOrder选项，支持自定义Bangumi条目类型的展示顺序
+    - 支持排序的类型包括：anime（动画）、book（书籍）、music（音乐）、game（游戏）（暂不支持real类型）
+    - 在Bangumi页面实现根据配置对分类标签页（tabs）进行智能排序的功能
+    - 排序逻辑：在categoryOrder中配置的类型按指定顺序优先展示，未配置的类型则按默认顺序（字母或原序）排列在后面
+    - 提升内容展示的灵活性和个性化程度
+    
+    Configuration and Sorting Enhancement:
+    - Added categoryOrder option to siteConfig supporting customized display order for Bangumi entry types
+    - Supported types for sorting include: anime, book, music, game (real type is temporarily unsupported)
+    - Implemented intelligent sorting of category tabs on the Bangumi page based on configuration
+    - Sorting logic: Types configured in categoryOrder are displayed first in the specified order, unconfigured types are placed afterward in default order (alphabetical or original)
+    - Enhanced flexibility and personalization of content presentation
+
+[33mcommit 95de8b4998d83c2184e8a0cbe454acf880458a5d[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Sun Mar 1 17:04:31 2026 +0800
+
+    biome format code
+
+[33mcommit e8cf023f82acd15d7c1077adf2982917d4c0f01c[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Sun Mar 1 17:01:20 2026 +0800
+
+    update: 将版本号更新至 6.7.7
+
+[33mcommit 98054b7ad1ce2abd4bddd049a051f92e2de4b1b5[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Sun Mar 1 16:56:04 2026 +0800
+
+    feat: 添加随机排序功能至友链配置
+
+[33mcommit 28635a96dec0f0c809419dc940e869f31c9747f1[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Sun Mar 1 16:33:49 2026 +0800
+
+    feat: 添加响应式图片画廊功能，支持使用 [grid] 标签展示多张图片并排，#237
+
+[33mcommit 26735cd8f6154115bf677ce95f8f826106f60b34[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Fri Feb 27 21:43:47 2026 +0800
+
+    fix: 避免页面存在多个h1
+
+[33mcommit 61e7e8d8d04b39e80e3c24d09c3fad5bc126dd40[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Fri Feb 27 19:54:00 2026 +0800
+
+    fix: 修复移动端无法关闭广告
+
+[33mcommit 626aacbe23f54bc47f3f95b6016035968671ab94[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Fri Feb 27 19:31:40 2026 +0800
+
+    update: 将版本号更新至 6.7.6
+
+[33mcommit da6e5f7829795799ab862626079dcca834cbcd6a[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Fri Feb 27 19:31:08 2026 +0800
+
+    feat: 更新文章导航链接，添加首页链接作为后备
+
+[33mcommit 7faef0acba403ad2cf369ccf4b6f5728bda967ef[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Fri Feb 27 19:25:20 2026 +0800
+
+    feat: 更新推荐文章图标为推荐符号
+
+[33mcommit c4850fc303987564866cda0100c598081495f934[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Fri Feb 27 18:53:41 2026 +0800
+
+    feat: 添加文章推荐组件（相关文章 +随机文章）
+    
+    - 新增 RecommendedPost 组件，左栏智能推荐、右栏随机推荐双卡片布局
+    - 推荐算法基于标签匹配 + 标题相似度 + 时间衰减 + 分类加成评分
+    - 随机文章通过客户端 fetch allPostMeta API 实现每次刷新随机
+    - 与日历组件共享 window.__allPostMetaCache 避免重复请求 allPostMeta API 补充 category 和 password 字段
+    - 新增 relatedPosts/randomPosts/smartRecommend/randomRecommend i18n 翻译
+
+[33mcommit 58855810f246067ec6dd845c9c298e3d09e110f9[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 17:33:20 2026 +0800
+
+    chore: 恢复默认侧边栏位置配置为双侧边栏
+
+[33mcommit 934a89b24cdb2b717a9b05d3f71f743410516761[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 17:20:57 2026 +0800
+
+    update: 将版本号更新至 6.7.5
+
+[33mcommit 53106969deeea81cdab9580576b6bb2bd7d7c068[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 16:32:05 2026 +0800
+
+    feat: 为加密文章添加标识
+
+[33mcommit e0b4f37f582bbcc0f7fa65ce182baa557dbeda13[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 04:09:19 2026 +0800
+
+    style: 更新 FloatingButton 组件，使用 card-base 统一全屏透明模式下的外观
+
+[33mcommit ef67dfa6acc9cca93d73d64b97ffc3791f3d9798[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 04:06:17 2026 +0800
+
+    style: 更新赞助页面的样式，使用 card-base 统一全屏透明模式下的外观
+
+[33mcommit d8c57e21a6a6be5b11351b97b1ec362821080303[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 03:53:49 2026 +0800
+
+    update: 更新版本号至 6.7.4
+
+[33mcommit 8484aeea288915a27c23a8ce94c3b215df9d4ae0[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 03:53:16 2026 +0800
+
+    fix: 修复 mermaid-render-script.js 的 biome lint 问题
+
+[33mcommit f2a922ca074c11596a8f60d3149848c90755d09c[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 03:49:11 2026 +0800
+
+    fix: 修复部分场景切换页面无法平滑滚动回顶部
+
+[33mcommit aeaf77ea9efbe0f656c8b9351f013840ef268c5a[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 03:13:05 2026 +0800
+
+    chore: 删除多余的加密示例文章
+
+[33mcommit 823529a40f17a821e47a90957a6cdfe5652fdca8[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Thu Feb 26 03:06:54 2026 +0800
+
+    feat: 添加 Mermaid 图表的 pan-zoom 控制栏和全屏功能
+
+[33mcommit 3e43ac39c420da3ac6c5ccba47e7f34235d6aa3f[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Wed Feb 25 22:49:56 2026 +0800
+
+    fix: 加密文章解密后重新绑定灯箱
+
+[33mcommit 0e38edb7bb4817bfcd022c30761b5a0ebef57852[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Wed Feb 25 21:03:30 2026 +0800
+
+    update: 更新版本号至6.7.3
+
+[33mcommit 13418785dec700a38871db8ac72bdb1bb74ff3e8[m
+Merge: 7071d76b 564f8dea
+Author: XiaYe <xiaye@msn.com>
+Date:   Wed Feb 25 21:00:51 2026 +0800
+
+    Merge pull request #234 from jacksen168sub/feat/image-referrer-policy
+    
+    feat(media): 为图片组件统一添加防盗链处理功能
+
+[33mcommit 564f8dea832008ee53d61e418b6e282d44bc7f1d[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Wed Feb 25 20:57:42 2026 +0800
+
+    fix: 修复防盗链处理功能部分问题
+    - 提取 shouldAddNoReferrer 到 image-utils.ts 消除三处重复实现
+    - 修复 rehype-figure 匹配域名时错误清空 alt 文本导致 figcaption 丢失
+    - 移除 Layout 客户端脚本中清空 src 重载图片的逻辑以避免闪烁
+    - 跳过非 http URL 避免对本地图片做无意义的 URL 解析
+
+[33mcommit 2b253fcd9ab05566b322164bfe1a777e3e479a90[m
+Author: jacksen168 <liu163yong163yu@163.com>
+Date:   Wed Feb 25 19:59:54 2026 +0800
+
+    refactor(common): fix for biome check
+    
+    - 在 CoverImage.astro 中将字符串拼接改为模板字符串
+    - 在 ImageWrapper.astro 中将字符串拼接改为模板字符串
+    - 在 rehype-figure.mjs 中将字符串拼接改为模板字符串
+
+[33mcommit 7071d76bfd41bfd16461e9cf651b8ab390b0c648[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Wed Feb 25 19:05:55 2026 +0800
+
+    feat: 添加文章密码保护功能和密码提示
+
+[33mcommit 2e417ca3855de1f193703216b88658c9a40779ae[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Wed Feb 25 18:35:40 2026 +0800
+
+    feat: 添加文章加密保护功能, #230
+
+[33mcommit c6f12985e7f512df188effda7e918a2bd07eb070[m
+Author: jacksen168 <liu163yong163yu@163.com>
+Date:   Wed Feb 25 14:43:28 2026 +0800
+
+    feat(media): 为图片组件统一添加防盗链处理功能
+    feat(media): Add Unified Anti-Hotlinking Functionality to Image Components
+    
+    功能增强：
+    - 为 CoverImage.astro 组件添加 referrerpolicy 属性支持，当图片源来自指定域名时自动应用 no-referrer 策略
+    - 为 ImageWrapper.astro 组件添加 referrerpolicy 属性支持，智能处理外部图片引用
+    - 在 siteConfig 中新增 noReferrerDomains 配置项，支持通配符域名匹配
+    - 实现 shouldAddNoReferrer 函数，提供灵活的域名匹配逻辑
+    - 在 rehype-figure 插件中集成该功能，自动处理 Markdown 中的图片
+    - 添加客户端 JavaScript 脚本，处理动态加载的图片元素
+    
+    配置管理：
+    - 提供统一的反盗链策略配置接口
+    - 支持批量域名管理和通配符匹配
+    - 增强图片资源加载的安全性和可靠性
+    
+    Function Enhancement:
+    - Added referrerpolicy attribute support to CoverImage.astro component, automatically applying no-referrer policy when image source is from specified domains
+    - Added referrerpolicy attribute support to ImageWrapper.astro component, intelligently handling external image references
+    - Added noReferrerDomains configuration item to siteConfig, supporting wildcard domain matching
+    - Implemented shouldAddNoReferrer function providing flexible domain matching logic
+    - Integrated this functionality into rehype-figure plugin, automatically processing images in Markdown
+    - Added client-side JavaScript script to handle dynamically loaded image elements
+    
+    Configuration Management:
+    - Provided unified anti-hotlinking policy configuration interface
+    - Supported batch domain management and wildcard matching
+    - Enhanced security and reliability of image resource loading
+
+[33mcommit 52b3af4c31b15e3194748b5071dd56fc77f42a77[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Wed Feb 25 13:11:07 2026 +0800
+
+    fix: 修复页面存在多个h1标题
+
+[33mcommit 926e177da93fef03b4a60ee38ee25e14133e52b5[m
+Merge: 2552bcb6 d0bab8be
+Author: XiaYe <xiaye@msn.com>
+Date:   Wed Feb 25 00:10:58 2026 +0800
+
+    Merge pull request #218 from CuteLeaf/dependabot-npm_and_yarn-svelte-5.51.3
+    
+    build(deps): bump svelte from 5.50.3 to 5.51.3
+
+[33mcommit d0bab8befd5fc7872f9212b71fbe0a10127bef0b[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Feb 24 16:07:05 2026 +0000
+
+    build(deps): bump svelte from 5.50.3 to 5.51.3
+    
+    Bumps [svelte](https://github.com/sveltejs/svelte/tree/HEAD/packages/svelte) from 5.50.3 to 5.51.3.
+    - [Release notes](https://github.com/sveltejs/svelte/releases)
+    - [Changelog](https://github.com/sveltejs/svelte/blob/main/packages/svelte/CHANGELOG.md)
+    - [Commits](https://github.com/sveltejs/svelte/commits/svelte@5.51.3/packages/svelte)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: svelte
+      dependency-version: 5.51.3
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 2552bcb67d7fe72659f3b748d93d8b4208472b1b[m
+Merge: 8d79a3ea 3bc19c83
+Author: XiaYe <xiaye@msn.com>
+Date:   Wed Feb 25 00:06:14 2026 +0800
+
+    Merge pull request #216 from CuteLeaf/dependabot-npm_and_yarn-biomejs-biome-2.4.2
+    
+    build(deps-dev): bump @biomejs/biome from 2.3.15 to 2.4.2
+
+[33mcommit 8d79a3eaddf7670afa895536c0318e9a936a7980[m
+Merge: c61914aa 0cf8a311
+Author: XiaYe <xiaye@msn.com>
+Date:   Wed Feb 25 00:05:15 2026 +0800
+
+    Merge pull request #228 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-60b00b31da
+    
+    build(deps): bump the patch-updates group across 1 directory with 11 updates
+
+[33mcommit c61914aa6284552c13a37709481a5a6d71511e07[m
+Author: 夏叶 <xiaye@msn.com>
+Date:   Tue Feb 24 23:47:52 2026 +0800
+
+    refactor: 移除文章网格布局列数限制改成自适应网格列数布局
