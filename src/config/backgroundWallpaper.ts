@@ -4,7 +4,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	// 壁纸模式："banner" 横幅壁纸，"overlay" 全屏透明，"none" 纯色背景无壁纸
 	mode: "banner",
 	// 是否允许用户通过导航栏切换壁纸模式，设为false可提升性能（只渲染当前模式）
-	switchable: true,
+	switchable: false,
 	/**
 	 * 背景图片配置
 	 * 图片路径支持三种格式：
@@ -39,12 +39,12 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			"assets/images/DesktopWallpaper/01.jpg",
+			"assets/images/DesktopWallpaper/02.jpg",
+			"assets/images/DesktopWallpaper/03.jpg",
+			"assets/images/DesktopWallpaper/04.jpg",
+			"assets/images/DesktopWallpaper/05.jpg",
+			"assets/images/DesktopWallpaper/06.jpg",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
@@ -69,19 +69,16 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 是否允许用户通过控制面板切换横幅标题显示
-			switchable: true,
+			switchable: false,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "Int3's Blog",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"今日复今日，今日何其少！今日又不为，此事何时了？",
+				"我生待明日，万事成蹉跎",
+				"路虽远，行则将至；事虽难，做则必成",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -89,7 +86,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				// 是否启用打字机效果
 				// 打字机开启 → 循环显示所有副标题
 				// 打字机关闭 → 每次刷新随机显示一条副标题
-				enable: true,
+				enable: false,
 				// 打字速度（毫秒）
 				speed: 100,
 				// 删除速度（毫秒）
@@ -102,9 +99,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		credit: {
 			enable: {
 				// 桌面端显示横幅图片来源文本
-				desktop: true,
+				desktop: false,
 				// 移动端显示横幅图片来源文本
-				mobile: true,
+				mobile: false,
 			},
 			text: {
 				// 桌面端要显示的来源文本
@@ -132,9 +129,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		waves: {
 			enable: {
 				// 桌面端是否启用水波纹动画效果
-				desktop: true,
+				desktop: false,
 				// 移动端是否启用水波纹动画效果
-				mobile: true,
+				mobile: false,
 			},
 			// 是否允许用户通过控制面板切换水波纹动画
 			switchable: true,

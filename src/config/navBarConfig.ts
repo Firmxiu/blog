@@ -37,6 +37,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 			// 根据配置决定是否添加番组计划，在siteConfig关闭pages.bangumi时导航栏不显示番组计划
 			...(siteConfig.pages.bangumi ? [LinkPreset.Bangumi] : []),
+		{
+				name: "Onedrive",
+				url: "https://int3666-my.sharepoint.com/:f:/g/personal/int3_int3666_onmicrosoft_com/IgC46pB2ISOoSpmmsNJfU6PFAVZVmtEmi7XpR5dCgBxAl7g?e=oUIlym",
+				external: true,
+				icon: "fa7-brands:cloudflare",
+			}
 		],
 	});
 

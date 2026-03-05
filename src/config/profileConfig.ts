@@ -6,13 +6,13 @@ export const profileConfig: ProfileConfig = {
 	// 1. public 目录（以 "/" 开头，不优化）："/assets/images/avatar.webp"
 	// 2. src 目录（不以 "/" 开头，自动优化但会增加构建时间，推荐）："assets/images/avatar.webp"
 	// 3. 远程 URL："https://example.com/avatar.jpg"
-	avatar: "assets/images/avatar.avif",
+	avatar: "https://int3imgbed.tos-s3-cn-shanghai.volces.com/i/2026/03/0a2026391de6c2e89f68cc8a089a0ace.jpg",
 
 	// 名字
-	name: "Firefly",
+	name: "INT3",
 
 	// 个人签名
-	bio: "Hello, I'm Firefly.",
+	bio: "DBG粉丝、Vistual studio用户、ROCK、骑行、电吉他.",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -30,13 +30,13 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/CuteLeaf",
+			url: "https://github.com/Firmxiu",
 			showName: false,
 		},
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:xiaye@msn.com",
+			url: "mailto:891099952@qq.com",
 			showName: false,
 		},
 		{
